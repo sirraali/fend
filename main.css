@@ -7,10 +7,16 @@
     border: 1px solid green;
     width: 200px;
     height: 100px;
+    position: relative;
+    top: 10px;
+    left: 50px;
 }
 
 .absolute {
     border: 1px solid red;
     width: 300px;
     height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
 }
