@@ -1,0 +1,2 @@
+Sizing the Blocks
+By default, a block-level element expands to a width of 100% of its parent container, whether it be the entire body element, a container element such as a div, or something else. It will also expand by default to whatever height it needs to have. But remember – “default” means “changeable/variable.” 
