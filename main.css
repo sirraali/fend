@@ -50,8 +50,12 @@
                 height: 100px;
             }
             
-            .wrapper>h1 h2 {
-                padding: 0;
+            .content {
+                grid-area: content;
+            }
+            
+            .heading {
+                grid-area: heading;
             }
             
             .wrapper {
@@ -60,16 +64,12 @@
                 grid-template-columns: 1fr 1fr 1fr;
                 padding: 0 10px 10px 10px;
                 gap: 10px;
+                grid-template-areas: "content" "heading";
             }
             
             p {
                 height: 400px;
                 overflow-y: scroll;
-                padding: 0;
-                margin: 0;
-            }
-            
-            h1 {
                 padding: 0;
                 margin: 0;
             }
