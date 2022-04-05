@@ -50,21 +50,12 @@
                 height: 100px;
             }
             
-            .content {
-                grid-area: content;
-            }
-            
-            .heading {
-                grid-area: heading;
-            }
-            
             .wrapper {
                 border: 1px solid black;
-                display: grid;
+                display: -ms-inline-grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 padding: 0 10px 10px 10px;
                 gap: 10px;
-                grid-template-areas: "content" "heading";
             }
             
             p {
